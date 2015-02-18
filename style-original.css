@@ -1,0 +1,150 @@
+@media screen and (min-width: 650px) {
+.home .site-inner {
+   background: inherit;
+	}
+}
+@media screen and (max-width: 649px) {
+.solid-section {
+	background-image: none;
+	background: rgb(2, 201, 201);
+}
+#front-page-2 .widget-wrap {
+  width: 100%;
+  text-align: center;
+  padding: 0 5%;
+}
+body.home {
+  background: rgb(2, 201, 201);
+}
+}
+
+/*For About Page Styling*/
+
+.page-id-5 main.content {
+	padding: 0;
+	text-align: center;
+}
+.page-id-5 .site-inner {
+	padding: 0;
+}
+.page-id-5 .entry {
+        background: rgb(2, 201, 201);
+}
+.page-id-5 .entry .about-pic {
+        background: rgb(2, 201, 201);
+}
+.page-id-5 .entry .about-quote {
+	padding: 3% 25% 4%;
+	color: white;
+	background: #7a679d;
+}
+.firstCharacter { 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+}
+.page-id-5 .entry .about-bio {
+	background: white;
+	padding: 3% 20%;
+	text-align: left;
+}
+.about-bio a {
+	color: rgb(2, 201, 201);
+}
+@media screen and (max-width: 420px) {
+.page-id-5 .entry .about-quote {
+	padding: 10% 5% 10%;
+}
+.page-id-5 .entry .about-bio {
+	padding: 5% 10%;
+}
+}
+
+/* For Services Page Styling */
+
+.page-id-10 main.content {
+	padding: 0;
+	background-color: rgb(2, 201, 201);
+}
+.page-id-10 .site-inner {
+	padding: 0;
+}
+.services-blocks {
+	width: 30%;
+	margin: 0 auto;
+	padding: 5% 0;
+}
+.services-intro {
+	padding: 3% 20%;
+	background: white;
+}
+.services-core {
+	padding: 3% 20%;
+	background: #7a679D;
+	color: white;
+}
+
+/*Case Studies Page*/
+.case-row-one img {
+	width: 30%;
+        float: left;
+	margin-left: 2.66666%
+ }
+.case-row-two img {
+       width: 30%; 
+       margin-left: 13%;
+       float: left;
+}
+
+@media screen and (max-width: 430px) {
+	.case-row-one img, .case-row-two img {
+ 		width: 100%;
+		margin: 0;
+	}
+}
+/* Case Studies Page */
+.page-id-40 .site-inner, page-id-10 .site-inner {
+	padding: 5% 20%;
+}
+.page-id-40 main.content,  {
+	padding: 0;
+}
+/* Public Speaking Page */
+
+.page-id-34 .site-inner {
+	padding: 0;
+}
+.page-id-34 main.content {
+	padding: 0;
+	background-color: rgb(2, 201, 201);
+}
+.speaking-pic {
+	text-align:center;
+	background-color: rgb(2, 201, 201);
+}
+.speaking-intro {
+	color: white;
+	background: #7a679d;
+	padding: 3% 20%;
+}
+.speaking-topics {
+	padding: 3% 20%;
+	background: white;
+}
+.speaking-topics a {
+	color: rgb(2, 201, 201);
+}
+.otw-sc-toggle .toggle-trigger {
+	font-family: 'roboto slab' !important;
+}
+/*.otw-sc-toggle .toggle-trigger span {
+	background: rgb(2, 201, 201) url(http://www.zakiyaharris.org/wp-content/plugins/toggles-shortcode-and-widget/include/otw_components/otw_shortcode/images/toggle-icon.png) no-repeat center top !important;
+}*/
+
+
+@media screen and (min-width: 768px) {
+ .entry-header {
+   display: none;
+}}
